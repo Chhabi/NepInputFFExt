@@ -11,7 +11,9 @@ It can be downloaded or installed to Firefox from the [official Firefox extensio
 Usage
 -----
 
-After installing the extension, the user should be able to switch between the system input method and the extension by pressing (Ctrl+Alt+Space) / (Command+Option+Space)
+After installing the extension, the user should be able to switch between the system input method and the extension by pressing (Ctrl+Alt+Space) / (Command+Option+Space).
+
+A short tutorial is also posted at the [developer's website](http://www.suvashthapaliya.com.np/showcase/nepali-input-extension/)
 
 Status
 ------
