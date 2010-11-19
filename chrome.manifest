@@ -1,0 +1,2 @@
+content npiext content/
+overlay chrome://browser/content/browser.xul chrome://npiext/content/npioverlay.xul

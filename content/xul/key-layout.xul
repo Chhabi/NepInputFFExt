@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window 
+id="theMainWindow"
+width="790"
+height="388"
+onload="initialize( );"
+title="Nepali Romanized Keyboard Layout"
+orient="horizontal"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script src="chrome://npiext/content/js/libjs_romanized.js"/>
+
+	<vbox>
+		<image style="list-style-image: url('chrome://npiext/content/images/keyb-nep-unicode-romanized.png'); width:600px; height:327px; "/>
+		<hbox>
+		<vbox flex="1">
+		<button align="center" label="Print Keyboard Layout" oncommand="openPrintWindow();"/>
+		</vbox>
+		<vbox flex="1">
+		<button align="center" label="Send Suggestions/Feedbacks" oncommand="openFeedbackWindow();" />
+		</vbox>
+		<vbox flex="1">
+		<button align="center" label="About" oncommand="openAboutWindow();" />
+		</vbox>
+		</hbox>
+	</vbox>
+	<vbox>
+		<textbox id="input" width="176px" height="350px" multiline="true" wrap="on" value="प्रयोग गर्ने तरिका :  ----------------------------------------
+Website हेर्दै गर्दा  (Ctrl+Alt+SPACE) दाब्नुभएको खण्डमा Statusbar(Bottom-Right)मा नेपाली झण्डाको छेउमा हरियो चिन्ह देखिनेछ । त्यसपछि Browser भित्र जहाँपनि नेपालीमा लेख्नसक्नुहुनेछ। ----------------------------------------
+फेरी (Ctrl+Alt+SPACE) दाब्नुभएको खण्डमा नेपाली झण्डाको छेउमा Statusbar(Bottom-Right)मा सुरुमाझैं रातो चिन्ह देखिनेछ । त्यसपछि पहिले प्रयोग गर्नुभएको भाषामा लेख्नसक्नुहुनेछ ।
+----------------------------------------  ---------------------------------------- 
+पुनश्च : यो ठाउँलाई तपाईंले नेपाली नोटकापीका रुपमा पनि प्रयोग गर्न सक्नुहुनेछ ।" />
+	</vbox>
+
+</window>

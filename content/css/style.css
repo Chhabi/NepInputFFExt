@@ -1,0 +1,20 @@
+.statusbutton
+{
+ cursor:pointer;
+ margin-right:2px;
+ margin-left:2px;
+}
+body.about a{color:#003893;}
+body.about a:hover{background-color:#003893; color:#FFFFFF;}
+body.about{background:url(../images/npi-about.png) no-repeat;}
+body.about h1.mpp{ font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; position:absolute; top:90px; left:8px;}
+body.about h1.developer{ font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; position:absolute; top:190px; left:8px;}
+body.about h1.thanks{ font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; position:absolute; top:225px; left:8px;}
+body.about h1.license{ font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; position:absolute; top:310px; left:93px;}
+
+body.feedback a{color:#003893;}
+body.feedback a:hover{background-color:#003893; color:#FFFFFF;}
+body.feedback{background:url(../images/npi-feedback.png) no-repeat;}
+body.feedback h1.email{ font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; position:absolute; top:100px; left:8px;}
+body.feedback h1.project{ font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; position:absolute; top:180px; left:8px; }
+body.feedback h1.thanks{ font-family:Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; position:absolute; top:200px; left:8px; }

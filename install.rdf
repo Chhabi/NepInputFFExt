@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="npiext@suvashthapaliya.com.np"
+                   em:name="Nepali (नेपाली) Input Extension"
+                   em:version="0.1.2"
+                   em:creator="suVasH"
+                   em:description="An easy-to-use extension to Input Nepali (नेपाली) Unicode Characters"
+                   em:homepageURL="http://www.suvashthapaliya.com.np/showcase/nepali-input-extension/"
+		   em:iconURL="chrome://npiext/content/images/npi-icon.png">
+    <em:targetApplication RDF:resource="rdf:#$9Nqag2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$9Nqag2"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="3.6.*"
+  />
+</RDF:RDF>
