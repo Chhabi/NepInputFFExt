@@ -5,7 +5,7 @@
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="npiext@suvashthapaliya.com.np"
                    em:name="Nepali (नेपाली) Input Extension"
-                   em:version="0.1.2"
+                   em:version="0.2"
                    em:creator="suVasH"
                    em:description="An easy-to-use extension to Input Nepali (नेपाली) Unicode Characters"
                    em:homepageURL="http://www.suvashthapaliya.com.np/showcase/nepali-input-extension/"
@@ -15,6 +15,6 @@
   <RDF:Description RDF:about="rdf:#$9Nqag2"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="1.5"
-                   em:maxVersion="3.6.*"
+                   em:maxVersion="4.0.*"
   />
 </RDF:RDF>
