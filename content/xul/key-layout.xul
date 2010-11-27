@@ -4,25 +4,25 @@
 id="theMainWindow"
 width="790"
 height="388"
-onload="initialize( );"
+onload="npiext.initialize();"
 title="Nepali Romanized Keyboard Layout"
 orient="horizontal"
 xmlns:xlink="http://www.w3.org/1999/xlink"
 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-<script src="chrome://npiext/content/js/libjs_romanized.js"/>
+<script src="chrome://npiext/content/js/libJS_Nep_Romanized.js"/>
 
 	<vbox>
 		<image style="list-style-image: url('chrome://npiext/content/images/keyb-nep-unicode-romanized.png'); width:600px; height:327px; "/>
 		<hbox>
 		<vbox flex="1">
-		<button align="center" label="Print Keyboard Layout" oncommand="openPrintWindow();"/>
+		<button align="center" label="Print Keyboard Layout" oncommand="npiext.openPrintWindow();"/>
 		</vbox>
 		<vbox flex="1">
-		<button align="center" label="Send Suggestions/Feedbacks" oncommand="openFeedbackWindow();" />
+		<button align="center" label="Send Suggestions/Feedbacks" oncommand="npiext.openFeedbackWindow();" />
 		</vbox>
 		<vbox flex="1">
-		<button align="center" label="About" oncommand="openAboutWindow();" />
+		<button align="center" label="About" oncommand="npiext.openAboutWindow();" />
 		</vbox>
 		</hbox>
 	</vbox>
