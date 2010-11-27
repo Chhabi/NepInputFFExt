@@ -1,19 +1,18 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://npiext/content/css/style.css" type="text/css"?>
 <overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-<script type="application/x-javascript" src="chrome://npiext/content/js/overlay.js"/>
-<script type="application/x-javascript" src="chrome://npiext/content/js/libjs_romanized.js"/>
+<script type="application/x-javascript" src="chrome://npiext/content/js/libJS_Nep_Romanized.js"/>
 
     <!-- Statusbar -->
 <statusbar id="status-bar">
-	<statusbarpanel id="np-panel" class="statusbutton" onmousedown="toggleWindow();" tooltiptext="Press(Ctrl+Alt+SPACE)">
+	<statusbarpanel id="np-panel" class="statusbutton" onmousedown="npiext.toggleWindow();" tooltiptext="Press(Ctrl+Alt+SPACE)">
                 <image src="chrome://npiext/content/images/NepCross.png" id="status-img" onload="" />
 	</statusbarpanel>
 </statusbar>
 
     <!-- Firefox Key Bindings -->
     <keyset id="mainKeyset">
-        <key id="toogle-ffkey" modifiers="control alt" key=" " oncommand="toggleNepali();"/>
+        <key id="toogle-ffkey" modifiers="control alt" key=" " oncommand="npiext.toggleNepali();"/>
     </keyset>
 
 </overlay>
