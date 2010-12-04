@@ -18,4 +18,4 @@ A short tutorial is also posted at the [developer's website](http://www.suvashth
 Status
 ------
 
-As of today (19th Nov. 2010), the extension supports Firefox 3.6 on Windows, Linux and MacOSX.
+As of today, the extension supports Firefox 4.0b7 on Windows, Linux and MacOSX.
